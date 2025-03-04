@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+
+  <!-- FONT --> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Poppins] h-screen">
+  <div class="container mx-auto px-6 py-12 relative h-screen items-center justify-between">
+
+    <!-- Left side content -->
+    <div class="w-full lg:w-1/2 z-10">
+      <div class="flex items-center mb-5">
+        <div class="w-12 h-[1px] bg-black"></div>
+        <span class="ml-4 font-medium">NABILA AYU TALITA</span>
+      </div>
+
+        <h1 class="text-5xl font-bold">Halo semua
+        <div class="flex items-center gap-4 my-4">
+          <h1 class="text-5xl font-bold">kenalin aku Ayu</h1>
+          <img class="w-10 h-10" src="/public/assets/star.png" alt="cursor"></h1>
+        </div>
+        
+      <p class="text-gray-700 mb-10 max-w-md">Selamat datang di website personal ku, disini aku akan
+      memberikan penjelasan singkat mengenai diriku sendiri menggunakan framework tailwind css :D</p>
+
+      <div class="flex flex-wrap items-center gap-4 ">
+        <a class="bg-black text-white px-5 py-3 rounded-full inline-block" href="#About">Klik aja gusy</a>
+        <a class="bg-black rounded-full p-2 w-12 h-12 flex items-center justify-center" href="https://www.instagram.com/nabilatll/">
+          <img class="w-6 h-6" src="/public/assets/Icons IG.png" alt="Instagram"></a>
+        <a class="bg-black rounded-full p-2 w-12 h-12 flex items-center justify-center" href="https://www.linkedin.com/in/nabilaayutalita/">
+          <img class="w-6 h-6" src="/public/assets/Icons Li.png" alt=""></a>
+        <span class="text-lg font-medium">Let's Connect</span>
+      </div>
+
+          <!-- Right side content -->
+    <div class="w-full lg:w-1/2 flex justify-center lg:justify-end items-center mt-5 lg:mt-0">
+      <img class="w-95" src="/public/assets/foto profil.png" alt="Nabila Ayu Talita">
+    </div>
+  </div>
+
+</body>
+</html> 
